@@ -24,7 +24,7 @@ Vue.component('products', {
      },
      template:
      ` <ul class="products-list ">
-     <product v-for="product of filtered" 
+     <product v-for="item of filtered" 
       :product="item"
       @add-product="$root.$refs.cart.addProduct"></product>
      </ul>
