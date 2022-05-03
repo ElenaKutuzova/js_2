@@ -1,0 +1,194 @@
+.products{
+    margin-bottom: 95px;  
+      &-list {
+          list-style-type: none;
+          padding-left: 0;
+          @include wrap ; 
+          padding-top: 47px;
+          gap: 30px; 
+          margin-bottom: 45px;
+          @media (max-width:$tablet-bp) {
+            gap: 16px;
+            padding-top: 128px;
+            margin-bottom: 128px;
+          }
+          @media (max-width:$tablet-bp){
+              padding-top: 65px;
+              margin-bottom: 64px;
+              gap: 1px;
+          }
+      }
+      &-title{
+          font-weight: normal;
+          font-size: 30px;
+          line-height: 36px;
+          color: #222222;
+          text-align: center;
+      }
+      &-item{
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+      color: #9F9F9F;
+      text-align: center;       
+      }
+      &-card{
+          display: flex;
+          flex-direction: column;
+          width: 360px;    
+          background: #F8F8F8;
+          position: relative;
+          transition: 1s;
+          overflow: hidden;
+          &:hover .products-overlay{
+              opacity: 1;
+              transform: scale(1);
+          }
+      
+      }
+      &-link{
+          text-decoration: none;    
+          margin-bottom: 20px;
+          
+          
+      }
+      &-name{
+          font-weight: normal;
+          font-size: 13px;
+          line-height: 16px;       
+          color: #000000;
+          margin-top: 25px;
+          margin-left: 17px;
+          margin-right: 17px;
+          
+          &:hover{
+            color: $main-color;
+            
+        }
+      }
+      &-description{
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 17px;    
+          color: #5D5D5D;
+          
+          padding-bottom: 18px;
+          padding-left: 17px;
+          padding-right: 17px;
+          flex-grow: 1;
+      }
+      &-price{
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 19px;    
+          color: $main-color;
+          padding-left: 17px;
+          padding-right: 17px;
+          padding-bottom: 20px;
+          &::before {content: "$"};
+      }
+
+      &-button{       
+          text-align: center;
+          padding-top: 15px;
+      }
+      &-all{
+          text-decoration: none;
+          background-color: white;    
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 19px;
+          color: #F26376;
+          padding: 15px 39px;    
+          border: 1px solid #F26376;
+          transition: background-color 0.3s, color 0.3s; 
+      }
+      &-all:hover{
+          color: #FFFFFF;
+          background-color:#F26376
+      }
+      &-pagination {
+          display: flex;
+          justify-content: center;    
+      }
+      &-pagination-list {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          display: flex;
+          gap: 20px;	
+          border: 1px solid #EBEBEB;
+          border-radius: 3px;
+          padding: 15px;
+          @media(max-width:$mobile-bp){
+              gap: 10px;
+
+          }
+      }
+      
+      &-pagination-item--separator {
+          margin: 0 -20px;
+          color: #C4C4C4;
+          @media(max-width:$mobile-bp){
+            margin: 0 -15px;
+            
+        }
+      }
+      &-pagination-link {
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 19px;
+          color: #C4C4C4;
+          background-color: transparent;
+          border: none;
+          fill:  #000000;
+          cursor: pointer;
+          transition: color 0.3s, fill 0.3s;
+
+          &:hover{
+              color: $main-color;
+              fill: $main-color
+          }
+      }
+      &-pagination-link--active {
+          color: #F26376;
+      } 
+      &-overlay{
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          width: 100%;
+          height: 420px;
+          background-color:  #3A3838DB;
+          @include center;
+          opacity: 0;
+          transition: opacity 0.5s, transform 0.5s;
+          transform: scale(0);
+          transform-origin: left center;
+          &__btn-add{
+              padding: 10px 15px;
+              color:  #FFFFFF;
+              background-color: transparent;
+              border: 1px solid #FFFFFF;
+              @include font-14-17;
+              font-weight: 400 ;
+              fill: #FFFFFF;
+              transition: background-color 0.3s, color 0.3s, fill 0.3s; 
+              cursor: pointer;              
+              &:hover{
+                  fill: #3A3838DB;
+                  color: #3A3838DB;                  
+                  background-color: #FFFFFF;
+              }
+              & svg{
+                  margin-right: 10px;
+                  vertical-align: middle;
+                                }
+            }
+        }   
+  }
+  @media(max-width: $tablet-bp) and (min-width:$mobile-bp){
+      .tablet{
+          display: none;
+      }
+        }

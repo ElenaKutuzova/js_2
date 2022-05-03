@@ -1,0 +1,111 @@
+.feedback{
+    background-color: #F4F4F4B2;
+    background-image: url(../img/feed-fon.png), url(../img/feed-pic.jpg) ;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    background-position: center, left bottom;    
+    padding-top: 100px;
+    padding-bottom: 155px;
+    @media(max-width: $tablet-bp){
+        padding-top: 64px;
+        padding-bottom: 140px;        
+        background-position-x: -350px;
+            background-position-y: 50px;
+    }
+    @media(max-width: $mobile-bp){
+        padding-top: 64px;
+        padding-bottom: 110px;  
+        
+        background-position-y: 0px;
+        background-position-x: -400px;
+  
+    }  
+   
+    &-wrap{
+        @include wrap ; 
+        @media(max-width: $tablet-bp){
+            padding-left: 8px;
+            padding-right: 8px;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+    }
+    &-col--1, &-col--2{
+        max-width: 360px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    &-col--1::before{
+        content: url(../img/foto-feedback.png);
+        position: relative;
+    }
+    &-text{
+        margin-top: 30px;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;    
+        color: #222224;
+    }
+    &-subscribe{
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 167.2%;
+        text-align: center;
+        color: #222224;
+        padding-bottom: 32px;
+        padding-top: 53px;
+        @media(max-width: $tablet-bp){
+            padding-top: 85px;
+            padding-bottom: 28px;
+        }
+        @media(max-width:$mobile-bp){
+            font-size: 14px;
+        }
+        &-bold{
+            font-weight: bold;
+            font-size: 24px;
+        }
+    }
+    &-form {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        &-field {
+            padding: 16px 43px;
+            background-color: #E1E1E1;    
+            border: none;
+            border-radius: 20px 0 0 20px;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222224;    
+            &:hover {
+                background-color: lightgrey;
+            }
+            &::placeholder {
+                color: #222224;
+                font-size: 12px;
+            }
+        }
+        &-button {
+        padding: 16px 19px;
+        background-color:$main-color;    
+        border: none;
+        border-radius:  0 20px 20px 0;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        cursor: pointer;
+        transition: background-color 0.3s;
+             &:hover{
+             background-color: #E05C6E;
+             }     
+        }
+    }
+}

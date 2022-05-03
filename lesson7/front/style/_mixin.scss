@@ -1,0 +1,16 @@
+@mixin wrap {
+    display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
+@mixin font-14-17{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    font-style: normal;
+}
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,147 @@
+.registration-wrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 128px;
+    margin-top: 64px;
+    margin-bottom: 96px;
+    @media (max-width:$tablet-bp){
+        gap: 22px;
+    }
+    @media (max-width:$mobile-bp){
+        gap: 40px;
+        flex-direction: column;
+    }
+}
+.reg_form{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+.registration-form{
+    width: 360px;   
+    & p{
+
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #222222;
+        margin-bottom: 20px;
+    }
+    &-text{
+        display: block;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        color: #B1B1B1;
+        margin-top: -5px;
+        margin-bottom: 39px;
+    }
+    &__field{
+
+        width: 100%;
+        padding: 13px 17px 16px 17px ;
+        
+        margin-bottom: 20px;
+        border: 1px solid #A4A4A4;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        color: #464444;
+        box-sizing: border-box;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        &::placeholder{
+            font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        color: #B1B1B1;
+        }
+
+    }
+    & input[type=text]{
+        display: block;
+    }
+    & input[type=email]{
+        display: block;
+    }
+    & input[type=password]{
+        display: block;
+    }
+    &__btn{
+        padding: 16px 28px 17px 28px;
+        background-color: $main-color;
+        @include font-14-17;
+        color:  #FFFFFF;
+        text-transform: uppercase;
+        border: 1px solid $main-color;
+        fill: #FFFFFF ;
+        transition: color 0.3s, fill 0.3s, background-color 0.3s, border 0.3s;
+        cursor: pointer;
+        box-sizing: border-box;
+        & svg{
+            padding-left: 20px;
+        }
+        &:hover{
+            color: $main-color;
+            fill: $main-color;
+            background-color: #FFFFFF;
+            border: 1px solid $main-color;
+        }
+    }
+}
+.radio{
+    display: flex;
+    margin-bottom: 35px;
+    margin-top: 30px;
+    
+    
+    &_text{
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 13px;
+        color: #000000;
+        padding-left: 10px;
+        padding-right: 20px; 
+            
+
+    }
+}
+.article{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    @media (max-width:$tablet-bp){
+        font-size: 16px;
+        line-height: 19px;
+
+    }
+    &-title{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        margin-bottom: 22px;
+        @media (max-width:$tablet-bp){
+            font-size: 16px;
+            line-height: 19px;
+    
+        }
+        
+    }   
+    &-list{
+        list-style: none;
+        padding-left: 0px;
+        padding-top: 21px;
+    }
+    &-item{
+        padding-bottom: 16px; 
+        &::before{
+            content: url(../img/mark-article.svg);
+            padding-right: 25px;
+        }       
+    }
+}
