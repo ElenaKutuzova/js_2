@@ -1,0 +1,88 @@
+@import"var";
+@import"mixin";
+*{
+    margin: 0;
+}
+html,body{
+    min-height: 100vh;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.visually-hidden{
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    clip: rect(1px 1px 1px 1px);
+}
+.wrap{
+    width: 1140px;
+    margin: 0 auto;
+    @media (max-width:$tablet-bp){
+        width: 736px;
+    }
+    @media(max-width: $mobile-bp){
+        width: 360px;
+    }
+   
+}
+.main{
+    flex-grow: 2;
+}
+/* header*/
+@import"bloks/header";
+
+/* main-nav*/
+@import"bloks/main-nav";
+ 
+
+/* promo */
+@import"bloks/promo";
+
+/* categories*/
+@import"bloks/categories";
+
+
+/* products */
+@import"bloks/products";
+
+.fas{
+    padding-left: 25px;
+}
+
+/* advantages */
+@import"bloks/advantages";
+
+/* feedback */
+@import"bloks/feedback";
+
+/* footer */
+@import"bloks/footer";
+
+
+/* page-title */
+@import"bloks/page-title";
+
+/* filter */
+@import"bloks/filter";
+
+/*slider*/
+@import"bloks/slider";
+
+/*product_details*/
+@import"bloks/product_details";
+
+/* shopping cart*/
+@import "bloks/shopping_cart";
+
+/* regform */
+@import "bloks/regform";
+
+

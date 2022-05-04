@@ -1,0 +1,136 @@
+.product_details{      
+
+    &__wrap{
+          height: 600px;
+          border: 1px solid #EAEAEA;
+          margin-top: -60px;
+          background-color:  #FFFFFF;
+          display: flex;
+          flex-direction: column;
+          @media(max-width: $tablet-bp){
+            flex-direction: unset;
+            align-items: center;
+            margin-top: 0px;
+          }
+          @media (max-width:$mobile-bp) {
+            margin-top: 0px;
+            border: none;
+            border-bottom: 1px solid #EAEAEA;
+          }
+          &-wrap{
+            padding: 65px 250px;
+            text-align: center;
+            @media(max-width: $tablet-bp){
+              padding: 65px 107px;              
+              align-items: center;
+            }
+            @media (max-width: $mobile-bp) {
+              padding: 32px 0;            
+              
+            }
+          }
+        }
+      
+    &__category{
+        @include font-14-17;
+        color: $main-color;
+        @media (max-width:$mobile-bp) {
+          margin-top: 64px;
+        }
+    
+        
+        &-line{
+            width: 63px;
+            height: 3px;
+            background-color: #EF5B70;
+            border: none;
+            margin: 12px auto;
+                     
+        }
+      }
+    
+    &__name{
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 22px;    
+      color: #4D4D4D;
+    }
+    &__description{
+      @include font-14-17; 
+      text-align: center;
+      color: #5E5E5E;    
+      margin: 48px 40px 32px 40px ;
+      @media (max-width:$mobile-bp) {
+        margin: 32px 25px;
+      }
+    }
+    &__price{
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 29px;    
+      color: #EF5B70;
+      ::before {content: "$"; }
+      
+      &-line{
+          margin: 65px auto;
+          border: 1px solid #EAEAEA;
+          @media (max-width:$mobile-bp) {
+            width: 175px;
+          }
+      }
+    }
+    &__filter{
+        display: inline-flex;
+        padding-left: 0;
+    }
+    &__button{       
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;    
+      color: #F26376;
+      background: #FFFFFF;
+      border: 1px solid #FF6A6A;
+      margin-top: 48px;
+      padding: 15px 60px 15px 60px;
+      fill: #EF5B70;
+      cursor: pointer; 
+     transition: color 0.4s, fill 0.4s, background 0.3s;
+     @media (max-width: $mobile-bp) {
+       margin-bottom: 65px;
+     }
+     
+      
+      
+      &:hover{
+        color: #FFFFFF;
+        fill: #FFFFFF;
+        background: #F26376;
+        animation: heartBeat 1s both infinite ease-in-out;
+        transform: scale(1);
+    }   
+   
+    }
+      
+      & svg{
+       vertical-align: middle;
+       margin-right: 22px;         
+      }       
+    }
+  
+    @keyframes heartBeat {
+      0% {
+        transform: scale(1);
+      }
+      14% {
+        transform: scale(1.1);
+      }
+      28% {
+        transform: scale(1);
+      }
+      42% {
+        transform: scale(1.1);
+      }
+      70% {
+        transform: scale(1);
+      }
+    } 

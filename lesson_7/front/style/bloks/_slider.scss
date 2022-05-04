@@ -1,0 +1,29 @@
+
+.slider {
+	background-color: #F7F7F7;    
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding-bottom: 60px;
+    
+    &-btn{
+        width: 47px;
+        height: 47px;
+        background-color: #2A2A2A26;
+        border: none;
+        fill: #000000;
+        cursor: pointer;
+        transition: fill 0.5s;
+        &:hover{
+            fill:$main-color;
+        }
+    }
+    &-img{
+        @media(max-width: $tablet-bp){
+            
+            height: 374px;
+        }
+    }
+   
+}

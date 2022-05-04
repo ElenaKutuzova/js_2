@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="534f8b8c-87e2-44c0-9fec-3efff51bfeb2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/lesson7/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/.idea/Новая папка — копия.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/.vs/prof-verstka1/v16/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/back/cart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/back/cartRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/back/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/back/json/productCard.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/back/json/productCardOfCart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/back/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/Butterfly-86028.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/Rectangle-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/Rectangle20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/accesories.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/arrow-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/arrow-rgstr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/btn-close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/cart-good-m3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/cart-good-m4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/cart-good-m5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/cart-good-m6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/cart-good-m7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/cart-good1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/cart-good2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/cart-good3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/cart-good4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/cart-good5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/cart-good6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/cart-goog-m2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/fasebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/feed-fon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/feed-pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/feed-pic1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/feedback-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/feedback-fon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/filter-button.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/fon-pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/for-kids.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/for-men.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/for-women.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/foto-feedback.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/icon-burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/icon-burger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/icon-cart-copy1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/icon-cart-copy2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/icon-cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/icon-cart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/icon-delivery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/icon-discounts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/icon-facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/icon-incta.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/icon-pinterest.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/icon-quality.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/icon-registry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/icon-registry.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/icon-search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/icon-twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/insta.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/kids-pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/man-pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/mark-article.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/menu-close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/p.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/pagination-next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/pagination-prev.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/product_card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/promo-pg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/quality.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/slider-next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/slider-prev.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/img/woman-pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/js/FooterComp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/js/ProdComp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/js/advantComp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/js/butHeaderSearchComp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/js/buttonMenuComp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/js/cartComp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/js/feedbackComp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/js/filterComp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/js/menunavComp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/js/pageTitleComp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/js/paginationComp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/js/registrationIconComp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/style/_mixin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/style/_var.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/style/bloks/_advantages.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/style/bloks/_categories.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/style/bloks/_feedback.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/style/bloks/_filter.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/style/bloks/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/style/bloks/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/style/bloks/_main-nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/style/bloks/_page-title.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/style/bloks/_product_details.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/style/bloks/_products.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/style/bloks/_promo.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/style/bloks/_regform.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/style/bloks/_shopping_cart.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/style/bloks/_slider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/style/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/style/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/front/style/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/package.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="28haneXrAP0FnfqrIAyYSADu7hu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="534f8b8c-87e2-44c0-9fec-3efff51bfeb2" name="Changes" comment="" />
+      <created>1651671448101</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651671448101</updated>
+      <workItem from="1651671457621" duration="6000" />
+    </task>
+    <servers />
+  </component>
+</project>

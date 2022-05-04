@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Roboto:wght@300&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/88a2f2c698.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="app">
+       
+    <header class="header">
+        <div class="wrap header-wrap">
+            <div class="header-col">
+                <a href="index.html" class="header-logo"><img src="img/logo.png" alt="logo"></a>
+                <search_el></search_el>
+            </div>
+           <nav> <ul class="header-col">
+                <button_menu></button_menu>
+               <registration_icon></registration_icon>
+               <cart ref="cart"></cart>
+
+            </ul></nav>
+       
+        </div>
+    </header>
+    <page_title></page_title>
+    <main class="main">
+        <section class="products">
+            <div class="wrap ">
+                <h2 class="visually-hidden">Каталог</h2>
+              
+                <filterel></filterel>
+                <products ref="products"></products>               
+               <pagination></pagination>
+            </div>
+        </section>
+    </main>
+     <advantel></advantel>
+     <feedbackel></feedbackel>
+     <footerel></footerel>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/headerComp.js"></script>
+    <script src="js/buttonMenuComp.js"></script>
+    <script src="js/registrationIconComp.js"></script>
+    <script src="js/cartComp.js"></script>
+    <script src="js/menunavComp.js"></script>
+    <script src="js/pageTitleComp.js"></script>
+    <script src="js/butHeaderSearchComp.js"></script>
+    <script src="js/filterComp.js"></script>
+    <script src="js/ProdComp.js"></script>
+    <script src="js/paginationComp.js"></script>
+    <script src="js/advantComp.js"></script>
+    <script src="js/feedbackComp.js"></script>
+    <script src="js/FooterComp.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

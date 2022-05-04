@@ -1,0 +1,93 @@
+.categories{    
+    padding-top: 60px;
+    padding-bottom: 100px;
+    @media(max-width:$tablet-bp){
+        padding-top: 20px;
+        padding-bottom: 155px;
+    }
+    @media(max-width:$mobile-bp){
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    &-wrap{
+        @include wrap ; 
+        @media(max-width: $mobile-bp){
+        gap: 32px;        
+        justify-content: center;
+        
+        }
+    }
+    &-item{
+        background-color: #C4C4C4;
+        width: 360px;
+        height: 260px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        @media(max-width:$tablet-bp) and (min-width: $mobile-bp){
+            width: 232px;
+            height: 167px;
+        }
+        @media(max-width: $mobile-bp){
+            width: 343px;
+            height: 247px;
+           
+        }
+    }
+    &-item--women{    
+        background-image: url(../img/fon-pic.png), url(../img/woman-pic.png) ;
+        background-repeat: no-repeat, no-repeat ;
+        background-size: cover, cover;
+        // @media(max-width:$tablet-bp){
+        //     background-size: cover, cover;
+        // }
+    }
+    &-item--men{    
+        background-image: url(../img/fon-pic.png), url(../img/man-pic.png);
+        background-repeat: no-repeat, no-repeat ;
+        background-size: cover, cover;
+        // @media(max-width:$tablet-bp){
+        //     background-size: cover, cover;
+        // }
+    }
+    &-item--kids{    
+        background-image: url(../img/fon-pic.png), url(../img/kids-pic.png);
+        background-repeat: no-repeat, no-repeat ;
+        background-size: cover, cover;
+        // @media(max-width:$tablet-bp){
+        //     background-size: cover;
+        // }
+    }
+    &-item--acc{
+        width: 100%;
+        height: 180px;
+        background-image: url(../img/Rectangle20.png), url(../img/Rectangle-20.png);
+        background-repeat: no-repeat, no-repeat ;
+        background-size: cover,cover;
+        margin-top: 30px;
+        @media(max-width:$tablet-bp) and (min-width: $mobile-bp){
+            height: 116px;
+            margin-top: 19px;
+        }
+        @media(max-width:$mobile-bp){
+            height: 111px;
+            width: 343px;
+            margin-top: 0px;
+        }
+        
+
+    }
+    &-sale{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;    
+        color: #FFFFFF;
+    }
+    &-name{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;    
+        color: $main-color;
+    }
+}
